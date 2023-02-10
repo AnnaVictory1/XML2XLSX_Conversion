@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> convert XML 2 Excel</title>
+    <style>
+        .container {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          margin-top: 50px;
+          background-color: rgb(81, 0, 255);
+          color:azure;
+          
+        }
+        .button {
+          padding: 10px 20px;
+          margin-top: 20px;
+          background-color: rgba(250, 19, 92, 0.77);
+          color: white;
+          border: none;
+          border-radius: 5px;
+          margin-bottom: 20px;
+        }
+        .filexml {
+          padding: 10px 20px;
+          margin-top: 20px;
+          background-color: rgb(81, 0, 255);
+          color: azure;
+          border: none;
+          border-radius: 5px;
+        }
+        .titre {
+
+          color:rgb(249, 233, 9);
+          border: none;
+          border-radius: 5px;
+        }
+
+      </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="titre">Conversion XML vers Excel</h1>
+        <form >
+          <label>XML File :</label>
+          <input class="filexml"  type="file" id="xmlInput" accept=".XML"/>
+          <button class="button" id="uploadButton">convert file</button>
+          
+          
+        </form>
+        <script src="./dist/bundle.js" ></script>
+</body>
+</html>
